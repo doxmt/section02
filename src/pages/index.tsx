@@ -27,6 +27,7 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
+          <h1>안녕하세요</h1>
           <Image
             className={styles.logo}
             src="https://nextjs.org/icons/next.svg"
