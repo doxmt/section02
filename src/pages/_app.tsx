@@ -29,7 +29,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <button onClick={onClickButton}>/test 페이지로 이동</button>
         </div>
       </header>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }
